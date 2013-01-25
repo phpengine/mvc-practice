@@ -32,14 +32,14 @@ class Database {
         else {
             $this->dbHost = "localhost";
             $this->dbUser = "root";
-            $this->dbPass = "ebayebay";
-            $this->dbName = "ebaycodepractice"; }
+            $this->dbPass = "blueFire45";
+            $this->dbName = "mvcpractice"; }
     }
 
     private function startConnection() {
         try {
             $this->dbo = new \mysqli($this->dbHost, $this->dbUser, $this->dbPass, $this->dbName);}
-        catch (\Exception $e){
+        catch (\Exception $e) {
             echo "Application Exception";
             throw new \Exception ; }
     }

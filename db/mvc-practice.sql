@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS ebaycodepractice;
-CREATE DATABASE ebaycodepractice;
-USE ebaycodepractice;
+DROP DATABASE IF EXISTS mvcpractice;
+CREATE DATABASE mvcpractice;
+USE mvcpractice;
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE users(
